@@ -1,0 +1,16 @@
+{
+  "files.exclude": {
+    "**/.local": true,
+    "**/.tools": true,
+    "**/node_modules": true,
+    "**/playwright-report": true,
+    "**/test-results": true
+  },
+  "search.exclude": {
+    "**/.local": true,
+    "**/.tools": true
+  },
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": false,
+  "python.testing.autoTestDiscoverOnSaveEnabled": false
+}

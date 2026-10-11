@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Playwright tests in Chrome",
+      "type": "npm",
+      "script": "test:headed",
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "focus": true, "panel": "dedicated" },
+      "problemMatcher": []
+    }
+  ]
+}
