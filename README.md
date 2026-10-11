@@ -1,4 +1,4 @@
-# Altimashop
+# Alza Demo Shop
 
 15 demoShop UI tests using **TypeScript, Playwright and Google Chrome**, organised with the Page Object Model.
 
@@ -7,8 +7,8 @@
 Requirements: **Git, Node.js 24 LTS (with npm) and Google Chrome**. The commands below use Windows PowerShell.
 
 ```powershell
-git clone https://github.com/upiratsinski/Altimashop.git
-cd Altimashop
+git clone https://github.com/upiratsinski/Alza-Demo-Shop.git
+cd Alza-Demo-Shop
 npm ci
 Copy-Item .env.example .env
 ```
